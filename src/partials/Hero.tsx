@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="hero-wrapper">
           <h1 className="hero-header">
             Transforming <br />
-            ideas to life
+            ideas into reality
           </h1>
           <svg
             className="hero-svg"
@@ -26,8 +26,8 @@ const Hero = () => {
           </svg>
         </div>
         <p className="hero-subtitle lo-text">
-          By working in IT for more 3 years and collaborating with clients on
-          their special projects
+          Through two years of experience in IT and collaboration with clients
+          on their special projects.
         </p>
       </div>
     </>
