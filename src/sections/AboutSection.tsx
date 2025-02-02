@@ -39,9 +39,9 @@ const AboutSection = () => {
           </div>
           <div className="section-about-right">
             <p className="section-about-description lo-text">
-              Self-taught software engineer with expertise in TypeScript,
+              I am self-taught software engineer with expertise in TypeScript,
               JavaScript, and React. Passionate about technology and building
-              solutions that drive real value for businesses.
+              technical solutions.
             </p>
             <p className="section-about-description lo-text">
               I bring one year of hands-on experience in Experience Design and
@@ -50,8 +50,9 @@ const AboutSection = () => {
               solutions for clients.
             </p>
             <p className="section-about-description lo-text">
-              I hold a Bachelor’s degree in Business Administration from Prague
-              and am fluent in Czech, English, Russian, and Arabic.
+              I hold a Bachelor’s degree in Business Administration from the
+              Prague University of Economics and Business and am fluent in
+              Czech, English, Russian.
             </p>
           </div>
         </div>
