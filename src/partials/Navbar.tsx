@@ -1,10 +1,24 @@
 import ActiveLabelUrl from "./ActiveLabelUrl";
-import { useState } from "react";
+import ActiveLabelNoUrl from "./ActiveLabelNoUrl";
+import { useState, useEffect } from "react";
 
 import "./Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const [darkMode, setDarkMode] = useState<boolean>(
+    localStorage.getItem("darkMode") === "true"
+  );
+
+  useEffect(() => {
+    document.body.classList.toggle("dark", darkMode);
+    localStorage.setItem("darkMode", darkMode.toString());
+  }, [darkMode]);
+
+  const toggleDarkMode = () => {
+    setDarkMode((prevMode) => !prevMode);
+  };
 
   return (
     <>
@@ -20,7 +34,13 @@ const Navbar = () => {
             secondRaw="ivanvia.work@gmail.com"
             url="mailto:ivanvia.work@gmail.com"
           />
-          <ActiveLabelUrl firstRaw="Switch" secondRaw="to Light Mode" url="*" />
+
+          <ActiveLabelNoUrl
+            firstRaw="Switch"
+            secondRaw={`to ${darkMode ? "Light Mode" : "Dark Mode"}`}
+            id="ligh-mode-switch"
+            onClick={toggleDarkMode}
+          />
         </div>
 
         <div className="nav-links">

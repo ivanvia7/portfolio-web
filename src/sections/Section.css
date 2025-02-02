@@ -22,7 +22,7 @@
 .section-header-divider {
   width: 100%;
   height: 0.1rem;
-  background-color: #4d4752;
+  background-color: var(--divider-color);
   margin-bottom: 3rem;
 }
 

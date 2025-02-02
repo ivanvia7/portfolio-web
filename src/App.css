@@ -1,12 +1,16 @@
 :root {
   --background-color: #242126;
   --text-color: #fbefef;
+  --background-color-wm: #fbefef;
+  --text-color-wm: #242126;
   --text-color-dark: #ede0e0;
   --text-h1-size: 8rem;
   --text-h1-line-heigh: 120%;
   --text-subtitle-size: 1.5rem;
   --text-subtitle-line-heigh: 150%;
   --text-general-line-heigh: 150%;
+  --divider-color: #4d4752;
+  --link-hover-color: #d9c3c3;
 }
 
 *,
@@ -17,6 +21,7 @@
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -151,9 +156,21 @@ body {
   color: var(--text-color);
 }
 
+body.light {
+  --background-color: var(--background-color-wm);
+  --text-color: var(--text-color-wm);
+  --link-hover-color: #504c4f;
+}
+
+body.dark {
+  --background-color: var(--background-color);
+  --text-color: var(--text-color);
+  --link-hover-color: #d9c3c3;
+}
+
 a {
   text-decoration: none;
-  color: var(--text-color);
+  color: inherit;
 }
 
 .main-container {
