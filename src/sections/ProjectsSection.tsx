@@ -26,7 +26,7 @@ const ProjectsSection = () => {
             year="2024"
             imageSide="left"
             projectUrlLabel="Check GitHub"
-            projectUrlString="https://apify.com/scraping_samurai"
+            projectUrlString="https://github.com/ivanvia7/portfolio-ai-helper"
             imageUrl="/extension.png"
             projectDescription="This side project originated from my experience as a Customer Success Manager (CSM), where I noticed that native Gmail lacked a feature for summarizing email threads. Motivated to improve productivity, I set out to develop a Google extension that integrates OpenAI and a database, allowing myself and my colleagues to work more efficiently. The project was built using JavaScript, Express, and MongoDB and integrated with OAuth 2.0 to ensure secure and seamless authentication. "
             projectUrlLabelSecond=""
