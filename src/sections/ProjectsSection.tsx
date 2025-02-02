@@ -14,7 +14,7 @@ const ProjectsSection = () => {
             year="2025"
             imageSide="right"
             projectUrlLabel="Explore on Apify"
-            projectUrlString="https://apify.com/scraping_samurai"
+            projectUrlString="https://apify.com/scraping_samurai/dall-e-3-ai-image-generator"
             imageUrl="/dall-e.png"
             projectDescription="This side project was driven by my interest in making AI wrappers to make OpenAI and PerplexityAI API accessible to everyone on Apify. I wanted to create flexible solutions that allow users to integrate AI processing with other scrapers with no effort. My goal was to build containers that interact with my backend, which then calls the appropriate AI services. The project was developed using TypeScript, Express, and MongoDB and deployed on Render to ensure scalability and performance. "
             projectUrlLabelSecond=""
@@ -43,7 +43,7 @@ const ProjectsSection = () => {
             projectDescription="This side project was developed during a 2024 coding boot camp, where I built a full-stack application for managing listings. The platform enables users to post and share their favorite camps effortlessly.
 Built with JavaScript, Express, and MongoDB, the project was deployed on Render for hosting, ensuring accessibility and performance."
             projectUrlLabelSecond="Check GitHub"
-            projectUrlStringSecond="https://github.com/ivanvia7/portfolio-yourcamp"
+            projectUrlStringSecond=""
           />
         </div>
       </div>

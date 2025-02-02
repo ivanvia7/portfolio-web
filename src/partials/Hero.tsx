@@ -18,9 +18,9 @@ const Hero = () => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
+              className="hero-svg"
               opacity="0.5"
               d="M45.9541 0V89M45.9541 89L91.3622 43.5918M45.9541 89L1 43.5918"
-              stroke="#F1EDEE"
               strokeWidth="2"
             />
           </svg>

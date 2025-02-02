@@ -1,6 +1,8 @@
 :root {
   --background-color: #242126;
   --text-color: #fbefef;
+  --stroke-color: #fbefef;
+  --stroke-color-dark: #242126;
   --background-color-wm: #fbefef;
   --text-color-wm: #242126;
   --text-color-dark: #ede0e0;
@@ -154,18 +156,26 @@ body {
   font-weight: 400;
   background-color: var(--background-color);
   color: var(--text-color);
+  stroke: var(--stroke-color);
 }
 
 body.light {
   --background-color: var(--background-color-wm);
   --text-color: var(--text-color-wm);
   --link-hover-color: #504c4f;
+  --stroke-color: var(--stroke-color-dark);
 }
 
 body.dark {
   --background-color: var(--background-color);
   --text-color: var(--text-color);
   --link-hover-color: #d9c3c3;
+  --stroke-color: var(--stroke-color-dark);
+}
+
+.hero-svg {
+  fill: none;
+  stroke: var(--stroke-color);
 }
 
 a {

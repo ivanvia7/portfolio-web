@@ -26,8 +26,8 @@ const ContactSection = () => {
             url="https://www.linkedin.com/in/ivan-via/"
           />
           <UrlIconLabel
-            text="Ivan Vasilev, 2025"
-            url="https://www.linkedin.com/in/ivan-via/"
+            text="Apify Profile"
+            url="https://apify.com/scraping_samurai"
           />
         </div>
       </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
   );
 
   useEffect(() => {
-    document.body.classList.toggle("dark", darkMode);
+    document.body.classList.toggle("light", darkMode);
     localStorage.setItem("darkMode", darkMode.toString());
   }, [darkMode]);
 
@@ -37,7 +37,7 @@ const Navbar = () => {
 
           <ActiveLabelNoUrl
             firstRaw="Switch"
-            secondRaw={`to ${darkMode ? "Light Mode" : "Dark Mode"}`}
+            secondRaw={`to ${darkMode ? "Dark Mode" : "Light Mode"}`}
             id="ligh-mode-switch"
             onClick={toggleDarkMode}
           />
@@ -45,8 +45,8 @@ const Navbar = () => {
 
         <div className="nav-links">
           <a href="#about-section">ABOUT</a>
-          <a href="#experience-section">EXPERIENCE</a>
           <a href="#projects-section">PROJECTS</a>
+          <a href="#experience-section">EXPERIENCE</a>
           <a href="#contact-section">CONTACT</a>
         </div>
         <div
@@ -68,8 +68,8 @@ const Navbar = () => {
         </div>
         <div className={`phone-nav-overlay ${isMenuOpen ? "active" : ""}`}>
           <a href="#about-section">ABOUT</a>
-          <a href="#experience-section">EXPERIENCE</a>
           <a href="#projects-section">PROJECTS</a>
+          <a href="#experience-section">EXPERIENCE</a>
           <a href="#contact-section">CONTACT</a>
         </div>
       </nav>

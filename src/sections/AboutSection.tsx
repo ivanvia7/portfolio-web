@@ -1,6 +1,7 @@
 import SectionHeader from "../partials/SectionHeader";
 import ActiveLabelUrl from "../partials/ActiveLabelUrl";
 import UrlIconLabel from "../partials/UrIIconLabel";
+import ActiveLabelNoUrl from "../partials/ActiveLabelNoUrl";
 import "./Section.css";
 
 const AboutSection = () => {
@@ -21,10 +22,9 @@ const AboutSection = () => {
               </p>
             </div>
             <div className="about-container-links">
-              <ActiveLabelUrl
+              <ActiveLabelNoUrl
                 firstRaw="Product Developer"
                 secondRaw="UX/UI Design"
-                url=""
               />
               <ActiveLabelUrl
                 firstRaw="Connect with me"
