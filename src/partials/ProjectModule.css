@@ -1,0 +1,48 @@
+.project-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.image-side-left {
+  flex-direction: row-reverse;
+}
+
+.project-header {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.project-label {
+  font-size: 1.5rem;
+}
+
+.project-description {
+  line-height: var(--text-general-line-heigh);
+  width: 30rem;
+}
+
+.project-image-wrapper {
+  width: 50rem;
+  height: 30rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+}
+
+.project-labels-wrapper {
+  display: flex;
+  gap: 1.5rem;
+}

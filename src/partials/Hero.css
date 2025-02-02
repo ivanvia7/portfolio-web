@@ -1,0 +1,25 @@
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero-header {
+  font-weight: 500;
+  font-size: var(--text-h1-size);
+  line-height: var(--text-h1-line-heigh);
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.hero-subtitle {
+  font-size: var(--text-subtitle-size);
+  line-height: var(--text-subtitle-line-heigh);
+}

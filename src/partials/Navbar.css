@@ -1,0 +1,58 @@
+/* nav styles */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav-labels {
+  display: flex;
+  gap: 10rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links > a {
+  color: var(--text-color-dark);
+}
+
+.nav-links > a:hover {
+  color: rgb(255, 255, 255);
+  transition: color 200ms;
+}
+
+.phone-nav-button {
+  display: none;
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.phone-nav-svg {
+  fill: white;
+}
+
+.phone-hidden {
+  display: none;
+}
+
+.phone-nav-overlay {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  z-index: 9999;
+  top: 5rem;
+}
+
+.phone-nav-overlay.active {
+  display: flex;
+}
