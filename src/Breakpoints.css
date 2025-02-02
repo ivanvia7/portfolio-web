@@ -32,7 +32,7 @@
 
   .nav-labels {
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
   }
 
   .phone-nav-overlay {
@@ -48,7 +48,7 @@
   /* ////////////// */
 
   .hero-header {
-    font-size: 3rem !important;
+    font-size: 3.25rem !important;
   }
 
   .hero-subtitle {

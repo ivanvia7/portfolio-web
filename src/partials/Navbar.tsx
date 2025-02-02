@@ -67,10 +67,24 @@ const Navbar = () => {
           </div>
         </div>
         <div className={`phone-nav-overlay ${isMenuOpen ? "active" : ""}`}>
-          <a href="#about-section">ABOUT</a>
-          <a href="#projects-section">PROJECTS</a>
-          <a href="#experience-section">EXPERIENCE</a>
-          <a href="#contact-section">CONTACT</a>
+          <a href="#about-section" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            ABOUT
+          </a>
+          <a
+            href="#projects-section"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            PROJECTS
+          </a>
+          <a
+            href="#experience-section"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            EXPERIENCE
+          </a>
+          <a href="#contact-section" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            CONTACT
+          </a>
         </div>
       </nav>
     </>
