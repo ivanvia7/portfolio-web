@@ -33,7 +33,7 @@ const AboutSection = () => {
               />
               <UrlIconLabel
                 text="LinkedIn"
-                url="mailto:ivanvia.work@gmail.com"
+                url="https://www.linkedin.com/in/ivan-via/"
               />
             </div>
           </div>

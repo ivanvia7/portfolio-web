@@ -1,7 +1,7 @@
 .hero-wrapper {
   display: flex;
   align-items: center;
-  gap: 10rem;
+  gap: 10em;
 }
 
 .hero-section {
