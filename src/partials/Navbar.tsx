@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="nav-labels">
           <ActiveLabelUrl
             firstRaw="Ivan Vasilev"
-            secondRaw="Web Developer"
+            secondRaw="Junior Developer"
             url="https://www.linkedin.com/in/ivan-via/"
           />
           <ActiveLabelUrl
