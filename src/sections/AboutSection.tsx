@@ -23,7 +23,7 @@ const AboutSection = () => {
             </div>
             <div className="about-container-links">
               <ActiveLabelNoUrl
-                firstRaw="Product Developer"
+                firstRaw="Junior Developer"
                 secondRaw="UX/UI Design"
               />
               <ActiveLabelUrl

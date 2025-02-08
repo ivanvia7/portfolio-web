@@ -12,7 +12,7 @@ const ExperienceSection = () => {
           <ExperienceModule
             companyName="Apify"
             experienceTimeline="2024 - Present"
-            position="Technical Customer Success"
+            position="Technical Product Advocate"
             location="Prague, Czech Republic"
             website="www.apify.com"
             websiteUrl="https://apify.com/"
