@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="hero-wrapper">
           <h1 className="hero-header">
             Transforming <br />
-            ideas into reality today
+            ideas into reality
           </h1>
           <svg
             className="hero-svg"
